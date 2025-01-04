@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Day Deliverables - Accessories & Clothes</title>
+    <link rel="stylesheet" href="octanet.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 1.5rem;
+            background-image: url('https://img.freepik.com/premium-vector/shop-bags-dresses-accessories-with-style-flair_1302918-91678.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            color: rgb(1, 2, 23);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .hero button {
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            background-color: #d41111;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        .hero button:hover {
+            background-color: #121212;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+        .category {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .category img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .category h3 {
+            font-size: 1.2rem;
+            margin: 1rem 0 0.5rem;
+        }
+        .category button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .category button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>One-Day Deliverables</h1>
+        <p>Your destination for accessories and clothing delivered within a day!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Fast Fashion, Fast Delivery</h1>
+        <p>Discover trendy accessories and clothing delivered to your door in just one day.</p>
+        <button>Shop Now</button>
+    </div>
+    <section class="categories">
+        <div class="category">
+            <img src="accessories.jpg" alt="Accessories">
+            <h3>Accessories</h3>
+            <button>Explore Accessories</button>
+        </div>
+        <div class="category">
+            <img src="clothing.jpg" alt="Clothing">
+            <h3>Clothing</h3>
+            <button>Explore Clothing</button>
+        </div>
+        <div class="category">
+            <img src="sale.jpg" alt="On Sale">
+            <h3>On Sale</h3>
+            <button>Shop Sale Items</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 One-Day Deliverables. All rights reserved.</p>
+    </footer>
+    <script src="octanet.js" ></script>
+</body>
+</html>
